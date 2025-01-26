@@ -40,7 +40,7 @@ We have created a Virtual Image (`.ova`) to implement the methodology described 
 
 > Note as specified earlier, it will give error if resources are not sufficient on the machine.
 <img src="image/README/4.png" alt="Alt text" width="480" height="320">
-7. Once import is done, click `ok` on this pop-up:
+7. Once import is done, click `ok` on this pop-up and start the machine:
 <img src="image/README/5.png" alt="Alt text" width="480" height="320">
 8. If you see this pop-up, then just enter `0000` (four time zero digit) as a code:
 <img src="image/README/6.png" alt="Alt text" width="480" height="320">
@@ -50,7 +50,9 @@ We have created a Virtual Image (`.ova`) to implement the methodology described 
 11. Open the terminal and activate the conda environment `conda activate icse`:
 <img src="image/README/8.png" alt="Alt text" width="480" height="320">
 12. Now run `bash run.sh`:
+
 > This step uses selenium-automation to automatically open and perform following operations and it will take around ~15mins to complete
+
  - This will first crawl website specified in `websites.txt` (in this case we are crawling alaskanewssource.com) WITH ADS
  - Then it will crawl crawl website specified in `websites.txt` (in this case we are crawling alaskanewssource.com) WITHOUT ADS
  - Extract ADS-specific violations
