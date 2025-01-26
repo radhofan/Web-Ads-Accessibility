@@ -37,6 +37,7 @@ We have created a Virtual Image (`.ova`) to implement the methodology described 
 5. You can name as `icse` and click `save`:
 <img src="image/README/3.png" alt="Alt text" width="480" height="320">
 6. Now it will start importing the Virtual Machine (this step take couple of minutes):
+
 > Note as specified earlier, it will give error if resources are not sufficient on the machine.
 <img src="image/README/4.png" alt="Alt text" width="480" height="320">
 7. Once import is done, click `ok` on this pop-up:
