@@ -45,6 +45,7 @@ We have created a Virtual Image (`.ova`) to implement the methodology described 
 8. If you see this pop-up, then just enter `0000` (four time zero digit) as a code:
 <img src="image/README/6.png" alt="Alt text" width="480" height="320">
 9. Open VS code from side dock.
+
 10. Open Folder, present in `Downloads/icse`:
 <img src="image/README/7.png" alt="Alt text" width="480" height="320">
 11. Open the terminal and activate the conda environment `conda activate icse`:
@@ -65,3 +66,72 @@ This completes our three-step methodology as specified in the paper
 
 ---
 
+### 3. Reproducible
+
+You can use the previous virtual machine to generate the results of the paper. 
+
+1. Go to the reproducible directory:
+
+`cd reproducible`
+
+2. Run bash file:
+
+`bash reproducible.sh`
+
+<img src="image/README/11.png" alt="Alt text" width="480" height="320">
+
+3. It will generate results in following order:
+
+##### Table 2:
+
+> First two rows are just the sum of all:
+
+<img src="image/README/12.png" alt="Alt text" width="480" height="320">
+<img src="image/README/13.png" alt="Alt text" width="480" height="320">
+
+##### Table 3:
+
+<img src="image/README/14.png" alt="Alt text" width="480" height="320">
+<img src="image/README/15.png" alt="Alt text" width="480" height="320">
+
+##### Table 4:
+
+> You can scroll up and down to see the all top 5
+
+<img src="image/README/16.png" alt="Alt text" width="480" height="320">
+<img src="image/README/17.png" alt="Alt text" width="480" height="320">
+
+##### Figure 4:
+
+> You can close the figure to move to the next step
+
+<img src="image/README/18.png" alt="Alt text" width="480" height="320">
+<img src="image/README/19.png" alt="Alt text" width="480" height="320">
+
+##### Figure 5:
+
+> You can close the figure to move to the next step
+
+<img src="image/README/20.png" alt="Alt text" width="480" height="320">
+<img src="image/README/21.png" alt="Alt text" width="480" height="320">
+
+##### Figure 8a:
+
+> You can close the figure to move to the next step
+
+<img src="image/README/22.png" alt="Alt text" width="480" height="320">
+<img src="image/README/23.png" alt="Alt text" width="480" height="320">
+
+##### Figure 8b:
+
+> You can close the figure to move to the next step
+
+<img src="image/README/24.png" alt="Alt text" width="480" height="320">
+<img src="image/README/25.png" alt="Alt text" width="480" height="320">
+
+##### Figure 8c:
+
+> You can close the figure to move to the next step
+
+<img src="image/README/26.png" alt="Alt text" width="480" height="320">
+<img src="image/README/27.png" alt="Alt text" width="480" height="320">
