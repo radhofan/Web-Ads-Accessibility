@@ -31,9 +31,9 @@ We have created a Virtual Image (`.ova`) to implement the methodology described 
 1. Install VM Ware Fusion Using these steps: [https://services.tctc.edu/TDClient/323/InfoTech/KB/ArticleDet?ID=21304]()
 2. Install VM Image(`.ova`) from this link:
 3. Now open VM Ware Fusion and click `File` on the top left corner and from dropdown choose `import` (mac):
-<img src="image/README/1.png" alt="Alt text" width="380" height="300">
+<img src="image/README/1.png" alt="Alt text" width="450" height="300">
 4. Click `choose file` and browse to (`.ova`) file you have downloaded in previous step:
-<img src="image/README/2.png" alt="Alt text" width="380" height="300">
+<img src="image/README/2.png" alt="Alt text" width="450" height="300">
 5. You can name as `icse` and click `save`:
 <img src="image/README/3.png" alt="Alt text" width="380" height="300">
 6. Now it will start importing the Virtual Machine (this step take couple of minutes):
