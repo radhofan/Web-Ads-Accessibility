@@ -31,7 +31,7 @@ We have created a Virtual Image (`.ova`) to implement the methodology described 
 1. Install VM Ware Fusion Using these steps: [https://services.tctc.edu/TDClient/323/InfoTech/KB/ArticleDet?ID=21304]()
 2. Install VM Image(`.ova`) from this link:
 3. Now open VM Ware Fusion and click `File` on the top left corner and from dropdown choose `import` (mac) - `open` (window)
-<img src="image/README/1.png" alt="Alt text" width="45" height="45">
+<img src="image/README/1.png" alt="Alt text" width="350" height="300">
 
 
 
