@@ -116,7 +116,7 @@ The downloadable size of the VM machine is approximately **10GB**.
       - **Crawl the Website with Ads**: The script will crawl the website specified in `websites.txt` (e.g., `alaskanewssource.com`) with ads enabled.  
       - **Crawl the Website without Ads**: The script will then crawl the same website without ads.  
       - **Extract Ad-Specific Violations**: It will identify and extract accessibility violations introduced by ads. 
-      - **Note:** If it crashes, delete the `output/alaskanewssource/` directory and re-run the `bash run.sh` command.
+      > **Note:** If it crashes, delete the `output/alaskanewssource/` directory and re-run the `bash run.sh` command.
       <img src="image/README/9.png" alt="Script Running Example" width="480" height="320">
 
 12. **View the Results**:  
