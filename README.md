@@ -1,7 +1,7 @@
 # Accessibility Issues in Ad Driven Web Applications
 
 ---
-https://drive.google.com/file/d/1Ni1AKU_X4odCT6tC1WTrBQJDYqebmCCL/view?usp=drive_link
+
 **Abdul Haddi Amjad** , Muhammad Danish, Bless Jah, Muhammad Ali Gulzar IEEE International Conference on Software Engineering (ICSE) 2025
 
 ## Artifact Badge Request:
@@ -24,7 +24,7 @@ https://drive.google.com/file/d/1Ni1AKU_X4odCT6tC1WTrBQJDYqebmCCL/view?usp=drive
 
 This paper, Accessibility Issues in Ad-Driven Web Applications, explores the impact of third-party advertisements on web accessibility. It identifies common accessibility violations introduced by ads, such as improper focus management and non-descriptive elements, and evaluates their compliance with WCAG guidelines. The study also provides actionable recommendations to improve accessibility in ad-driven web environments.
 
-This is a public repository and zenodo link to download Virtual Machine (`.ova`) ([https://zenodo.org/records/14742897](https://zenodo.org/records/14742897)), **available** to everyone.
+This is a public repository and zenodo link to download Virtual Machine (`.ova`) ([https://zenodo.org/records/14751449](https://zenodo.org/records/14742897)), **available** to everyone.
 
 ![1737894596764](image/README/meth.png)
 
@@ -35,15 +35,15 @@ This is a public repository and zenodo link to download Virtual Machine (`.ova`)
 > **For any additional configurations or assistance, feel free to contact us at hadiamjad@vt.edu**
 
 1. Install VM Ware Fusion using these steps: [https://services.tctc.edu/TDClient/323/InfoTech/KB/ArticleDet?ID=21304](https://services.tctc.edu/TDClient/323/InfoTech/KB/ArticleDet?ID=21304)
-2. Install VM Machine (`.ova`) of from this link: [https://zenodo.org/records/14742897](https://zenodo.org/records/14742897)
+2. Install VM Machine (`.ova`) of from this link: [https://zenodo.org/records/14751449](https://zenodo.org/records/14742897)
 
 ### VM Machine Requirements
 
 The downloadable size of the VM machine is approximately **22GB**.
 
 **System Requirements:**
-- **RAM:** 16GB
-- **Hard Drive Space:** 50GB
+- **RAM:** 12GB
+- **Hard Drive Space:** 15GB
 - **CPU Cores:** 4
 - **Supported Platforms:** macOS (Intel) or Windows
 
@@ -63,7 +63,7 @@ The downloadable size of the VM machine is approximately **22GB**.
 ## Steps to Import/Open the VM Machine in VMware Fusion
 
 1. **Download the VM Machine**:  
-   Ensure you have downloaded the VM machine file (approximately 22GB) to your system.
+   Ensure you have downloaded the VM machine file (approximately 10GB) to your system.
 
 2. **Open VMware Fusion**:  
    Launch the VMware Fusion application on your macOS (Intel) or Windows device.
@@ -82,7 +82,7 @@ The downloadable size of the VM machine is approximately **22GB**.
    <img src="image/README/3.png" alt="Name and Save the VM" width="480" height="320">
 
 6. **Wait for Import**:  
-   - The virtual machine will start importing. This process may take a 15-30 minutes.  
+   - The virtual machine will start importing. This process may take a 5-10 minutes.  
    - **Note**: You don't have to configure resources but while importing if the system resources (RAM, CPU, Space etc.) are insufficient, you may encounter an error.  
    <img src="image/README/4.png" alt="Import Process" width="480" height="320">
 
@@ -111,7 +111,7 @@ The downloadable size of the VM machine is approximately **22GB**.
       ```bash
       bash run.sh
       ```  
-    - This step uses Selenium automation to perform the following operations, which will take approximately 15-20 minutes to complete:  
+    - This step uses Selenium automation to perform the following operations, which will take approximately 5-7 minutes to complete:  
       - **Crawl the Website with Ads**: The script will crawl the website specified in `websites.txt` (e.g., `alaskanewssource.com`) with ads enabled.  
       - **Crawl the Website without Ads**: The script will then crawl the same website without ads.  
       - **Extract Ad-Specific Violations**: It will identify and extract accessibility violations introduced by ads.  
@@ -130,6 +130,8 @@ The downloadable size of the VM machine is approximately **22GB**.
 
 You can use the provided virtual machine to reproduce the results outlined in the paper. Follow these steps:
 
+> **Note:** Due to the 30-minute artifact time limit, we use processed data to regenerate the tables and figures. If you prefer to generate them directly from the raw dataset, you can download and import the virtual machine (~22GB) [https://zenodo.org/records/14742897](https://zenodo.org/records/14742897). Please note that this process takes over 30 minutes to complete.
+
 1. **Navigate to the Reproducible Directory**:  
    ```bash
    cd reproducible
@@ -145,7 +147,7 @@ The script will generate the results in the following order:
 
 ##### Table 2:  
 
-- **Time Required**: This step takes approximately 5-10 minutes to complete.  
+- **Time Required**: This step takes approximately 2-4 minutes to complete.  
 - **Output**: The result is printed directly in the terminal.  
 
 > The first two rows represent the aggregated totals of all data.  
@@ -154,7 +156,7 @@ The script will generate the results in the following order:
 
 ##### Table 3:
 
-- **Time Required**: This step takes approximately 5-10 minutes to complete.  
+- **Time Required**: This step takes approximately 2-4 minutes to complete.  
 - **Output**: The result is printed directly in the terminal.  
 
 <img src="image/README/14.png" alt="Alt text" width="480" height="320">
@@ -162,7 +164,7 @@ The script will generate the results in the following order:
 
 ##### Table 4:
 
-- **Time Required**: This step takes approximately 5-10 minutes to complete.  
+- **Time Required**: This step takes approximately 2-4 minutes to complete.  
 - **Output**: The result is printed directly in the terminal.  
 
 > You can scroll up and down to view all the top 5 entries.  
@@ -182,7 +184,7 @@ The script will generate the results in the following order:
 
 ##### Figure 5:
 
-- **Time Required**: This step takes approximately 5-10 minutes to complete.  
+- **Time Required**: This step takes approximately 2-4 minutes to complete.  
 - **Output**: The figure will appear in a pop-up window once processing is complete.  
 
 > You can close the figure to proceed to the next step. 
@@ -192,7 +194,7 @@ The script will generate the results in the following order:
 
 ##### Figure 8a:
 
-- **Time Required**: This step takes approximately 20-30 minutes to complete.  
+- **Time Required**: This step takes approximately 2-4 minutes to complete.  
 - **Output**: The figure will appear in a pop-up window once processing is complete.  
 
 > You can close the figure to proceed to the next step. 
@@ -202,7 +204,7 @@ The script will generate the results in the following order:
 
 ##### Figure 8b:
 
-- **Time Required**: This step takes approximately 20-30 minutes to complete.  
+- **Time Required**: This step takes approximately 2-4 minutes to complete.  
 - **Output**: The figure will appear in a pop-up window once processing is complete.  
 
 > You can close the figure to proceed to the next step. 
@@ -212,7 +214,7 @@ The script will generate the results in the following order:
 
 ##### Figure 8c:
 
-- **Time Required**: This step takes approximately 20-30 minutes to complete.  
+- **Time Required**: This step takes approximately 2-4 minutes to complete.  
 - **Output**: The figure will appear in a pop-up window once processing is complete.  
 
 <img src="image/README/26.png" alt="Alt text" width="480" height="320">
