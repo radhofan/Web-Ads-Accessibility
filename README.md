@@ -215,8 +215,6 @@ The script will generate the results in the following order:
 - **Time Required**: This step takes approximately 20-30 minutes to complete.  
 - **Output**: The figure will appear in a pop-up window once processing is complete.  
 
-> You can close the figure to proceed to the next step. 
-
 <img src="image/README/26.png" alt="Alt text" width="480" height="320">
 <img src="image/README/27.png" alt="Alt text" width="480" height="320">
 
