@@ -24,7 +24,7 @@
 
 This paper, Accessibility Issues in Ad-Driven Web Applications, explores the impact of third-party advertisements on web accessibility. It identifies common accessibility violations introduced by ads, such as improper focus management and non-descriptive elements, and evaluates their compliance with WCAG guidelines. The study also provides actionable recommendations to improve accessibility in ad-driven web environments.
 
-This is a public repository and zenodo link to download Virtual Machine (`.ova`) ([https://zenodo.org/records/14751449](https://zenodo.org/records/14742897)), **available** to everyone.
+This is a public repository and zenodo link to download Virtual Machine (`.ova`) ([https://zenodo.org/records/14751449](https://zenodo.org/records/14751449)), **available** to everyone.
 
 ![1737894596764](image/README/meth.png)
 
@@ -35,7 +35,7 @@ This is a public repository and zenodo link to download Virtual Machine (`.ova`)
 > **For any additional configurations or assistance, feel free to contact us at hadiamjad@vt.edu**
 
 1. Install VM Ware Fusion using these steps: [https://services.tctc.edu/TDClient/323/InfoTech/KB/ArticleDet?ID=21304](https://services.tctc.edu/TDClient/323/InfoTech/KB/ArticleDet?ID=21304)
-2. Install VM Machine (`.ova`) of from this link: [https://zenodo.org/records/14751449](https://zenodo.org/records/14742897)
+2. Install VM Machine (`.ova`) of from this link: [https://zenodo.org/records/14751449](https://zenodo.org/records/14751449)
 
 ### VM Machine Requirements
 
