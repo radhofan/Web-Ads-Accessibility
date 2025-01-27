@@ -118,16 +118,12 @@ The downloadable size of the VM machine is approximately **22GB**.
       <img src="image/README/9.png" alt="Script Running Example" width="480" height="320">
 
 12. **View the Results**:  
-    - After the script completes successfully, you will see the following output in the terminal:  
+    - Once the script finishes running, you will see the following output in the terminal:  
       <img src="image/README/10.png" alt="Terminal Output Example" width="480" height="320">  
-    - The **`difference` folder** (visible on the left panel) contains ad-specific violations saved in `.csv` format.  
-
-This completes the three-step methodology outlined in the paper:
-1. Crawling with ads.  
-2. Crawling without ads.  
-3. Extracting ad-specific violations.  
-
-![1737894596764](image/README/meth.png)
+    - This concludes the three-step methodology as outlined in the paper:
+        1. **Crawling with Ads**: Results are saved in the folder `output/normal/`.  
+        2. **Crawling without Ads**: Results are saved in the folder `output/adblock/`.  
+        3. **Extracting Ad-Specific Violations**: The differences are saved in the `differences/` folder, containing `.csv` files that highlight ad-specific accessibility violations. The folder is also visible in the left panel for easy access.  
 
 ---
 
