@@ -71,41 +71,41 @@ The downloadable size of the VM machine is approximately **22GB**.
 3. **Import the VM Machine**:  
    - Open VMware Fusion and click `File` in the top-left corner.  
    - From the dropdown menu, select `Import`.  
-   `<img src="image/README/1.png" alt="Import VM in VMware Fusion" width="480" height="320">`
+   <img src="image/README/1.png" alt="Import VM in VMware Fusion" width="480" height="320">
 
 4. **Choose the `.ova` File**:  
    - Click `Choose File` and browse to the location of the downloaded `.ova` file from the previous step.  
-   `<img src="image/README/2.png" alt="Choose .ova File" width="480" height="320">`
+   <img src="image/README/2.png" alt="Choose .ova File" width="480" height="320">
 
 5. **Name and Save**:  
    - Assign a name to the virtual machine (e.g., `icse`) and click `Save`.  
-   `<img src="image/README/3.png" alt="Name and Save the VM" width="480" height="320">`
+   <img src="image/README/3.png" alt="Name and Save the VM" width="480" height="320">
 
 6. **Wait for Import**:  
    - The virtual machine will start importing. This process may take a few minutes.  
    - **Note**: If the system resources (RAM, CPU, etc.) are insufficient, you may encounter an error.  
-   `<img src="image/README/4.png" alt="Import Process" width="480" height="320">`
+   <img src="image/README/4.png" alt="Import Process" width="480" height="320">
 
 7. **Complete Import**:  
    - Once the import is complete, click `OK` on the pop-up window and start the machine.  
-   `<img src="image/README/5.png" alt="Start the Machine" width="480" height="320">`
+   <img src="image/README/5.png" alt="Start the Machine" width="480" height="320">
 
 8. **Enter the Code (if prompted)**:  
    - If prompted, enter `0000` (four zeros) as the code.  
-   `<img src="image/README/6.png" alt="Enter Code" width="480" height="320">`
+   <img src="image/README/6.png" alt="Enter Code" width="480" height="320">
 
 9. **Open VS Code**:  
    - Launch **VS Code** from the side dock.  
    - Open the folder located in `Downloads/icse`.  
-   `<img src="image/README/7.png" alt="Open Folder in VS Code" width="480" height="320">`
+   <img src="image/README/7.png" alt="Open Folder in VS Code" width="480" height="320">
 
 10. **Activate the Conda Environment**:  
     - Open the terminal in VS Code and activate the Conda environment by running:  
       ```bash
       conda activate icse
       ```  
-    `<img src="image/README/8.png" alt="Activate Conda Environment" width="480" height="320">`
-    
+    <img src="image/README/8.png" alt="Activate Conda Environment" width="480" height="320">
+
 12. Now run `bash run.sh`:
 
 > This step uses selenium-automation to automatically open and perform following operations and it will take around ~15mins to complete
