@@ -145,7 +145,7 @@ The script will generate the results in the following order:
 
 #### Table 2:  
 
-- **Time Required**: This step takes approximately 2-3 minutes to complete.  
+- **Time Required**: This step takes approximately 5-10 minutes to complete.  
 - **Output**: The result is printed directly in the terminal.  
 
 > The first two rows represent the aggregated totals of all data.  
@@ -154,47 +154,68 @@ The script will generate the results in the following order:
 
 ##### Table 3:
 
+- **Time Required**: This step takes approximately 5-10 minutes to complete.  
+- **Output**: The result is printed directly in the terminal.  
+
 <img src="image/README/14.png" alt="Alt text" width="480" height="320">
 <img src="image/README/15.png" alt="Alt text" width="480" height="320">
 
 ##### Table 4:
 
-> You can scroll up and down to see the all top 5
+- **Time Required**: This step takes approximately 5-10 minutes to complete.  
+- **Output**: The result is printed directly in the terminal.  
+
+> You can scroll up and down to view all the top 5 entries.  
 
 <img src="image/README/16.png" alt="Alt text" width="480" height="320">
 <img src="image/README/17.png" alt="Alt text" width="480" height="320">
 
 ##### Figure 4:
 
-> You can close the figure to move to the next step
+- **Time Required**: This step takes approximately 5-10 minutes to complete.  
+- **Output**: The figure will appear in a pop-up window once processing is complete.  
+
+> You can close the figure to proceed to the next step.  
 
 <img src="image/README/18.png" alt="Alt text" width="480" height="320">
 <img src="image/README/19.png" alt="Alt text" width="480" height="320">
 
 ##### Figure 5:
 
-> You can close the figure to move to the next step
+- **Time Required**: This step takes approximately 5-10 minutes to complete.  
+- **Output**: The figure will appear in a pop-up window once processing is complete.  
+
+> You can close the figure to proceed to the next step. 
 
 <img src="image/README/20.png" alt="Alt text" width="480" height="320">
 <img src="image/README/21.png" alt="Alt text" width="480" height="320">
 
 ##### Figure 8a:
 
-> You can close the figure to move to the next step
+- **Time Required**: This step takes approximately 20-30 minutes to complete.  
+- **Output**: The figure will appear in a pop-up window once processing is complete.  
+
+> You can close the figure to proceed to the next step. 
 
 <img src="image/README/22.png" alt="Alt text" width="480" height="320">
 <img src="image/README/23.png" alt="Alt text" width="480" height="320">
 
 ##### Figure 8b:
 
-> You can close the figure to move to the next step
+- **Time Required**: This step takes approximately 20-30 minutes to complete.  
+- **Output**: The figure will appear in a pop-up window once processing is complete.  
+
+> You can close the figure to proceed to the next step. 
 
 <img src="image/README/24.png" alt="Alt text" width="480" height="320">
 <img src="image/README/25.png" alt="Alt text" width="480" height="320">
 
 ##### Figure 8c:
 
-> You can close the figure to move to the next step
+- **Time Required**: This step takes approximately 20-30 minutes to complete.  
+- **Output**: The figure will appear in a pop-up window once processing is complete.  
+
+> You can close the figure to proceed to the next step. 
 
 <img src="image/README/26.png" alt="Alt text" width="480" height="320">
 <img src="image/README/27.png" alt="Alt text" width="480" height="320">
