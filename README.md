@@ -143,14 +143,14 @@ You can use the provided virtual machine to reproduce the results outlined in th
 3. **Run Overview**: 
 The script will generate the results in the following order:
 
-#### Table 2:  
+##### Table 2:  
 
 - **Time Required**: This step takes approximately 5-10 minutes to complete.  
 - **Output**: The result is printed directly in the terminal.  
 
 > The first two rows represent the aggregated totals of all data.  
 <img src="image/README/12.png" alt="Alt text" width="480" height="320">
-<img src="image/README/13.png" alt="Alt text" width="480" height="320">
+<img src="image/README/13.png" alt="Alt text" width="420" height="320">
 
 ##### Table 3:
 
