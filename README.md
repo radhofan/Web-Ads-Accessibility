@@ -39,7 +39,7 @@ This is a public repository and zenodo link to download Virtual Machine (`.ova`)
 
 ### VM Machine Requirements
 
-The downloadable size of the VM machine is approximately **22GB**.
+The downloadable size of the VM machine is approximately **10GB**.
 
 **System Requirements:**
 - **RAM:** 12GB
@@ -70,7 +70,7 @@ The downloadable size of the VM machine is approximately **22GB**.
 
 3. **Import the VM Machine**:  
    - Open VMware Fusion and click `File` in the top-left corner.  
-   - From the dropdown menu, select `Import`.  
+   - From the dropdown menu, select `Import` (mac) -- `Open` (Windows).  
    <img src="image/README/1.png" alt="Import VM in VMware Fusion" width="480" height="320">
 
 4. **Choose the `.ova` File**:  
