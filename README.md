@@ -94,9 +94,8 @@ The downloadable size of the VM machine is approximately **10GB**.
    - If prompted, enter `0000` (four zeros) as the code.  
    <img src="image/README/6.png" alt="Enter Code" width="480" height="320">
 
-> **Note:** Open Google Chrome, search for `alaskanewssource.com` to check if it loads properly, and then close it.
-
-9. **Open VS Code**:  
+9. **Open**: 
+   - Open Google Chrome, search for `alaskanewssource.com` to check if it loads properly, and then CLOSE it.
    - Launch **VS Code** from the side dock.  
    - Open the folder located in `Downloads/icse`.  
    <img src="image/README/7.png" alt="Open Folder in VS Code" width="480" height="320">
