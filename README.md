@@ -111,7 +111,7 @@ The downloadable size of the VM machine is approximately **22GB**.
       ```bash
       bash run.sh
       ```  
-    - This step uses Selenium automation to perform the following operations, which will take approximately 15 minutes to complete:  
+    - This step uses Selenium automation to perform the following operations, which will take approximately 15-20 minutes to complete:  
       - **Crawl the Website with Ads**: The script will crawl the website specified in `websites.txt` (e.g., `alaskanewssource.com`) with ads enabled.  
       - **Crawl the Website without Ads**: The script will then crawl the same website without ads.  
       - **Extract Ad-Specific Violations**: It will identify and extract accessibility violations introduced by ads.  
@@ -126,27 +126,29 @@ The downloadable size of the VM machine is approximately **22GB**.
         3. **Extracting Ad-Specific Violations**: The differences are saved in the `differences/` folder, containing `.csv` files that highlight ad-specific accessibility violations. The folder is also visible in the left panel for easy access.  
 
 ---
+13. **Run the Shell Script to Reproduce Paper Results**: 
 
-### 3. Reproducible
+You can use the provided virtual machine to reproduce the results outlined in the paper. Follow these steps:
 
-You can use the previous virtual machine to generate the results of the paper.
-
-1. Go to the reproducible directory:
-
-`cd reproducible`
-
-2. Run bash file:
-
-`bash reproducible.sh`
-
+1. **Navigate to the Reproducible Directory**:  
+   ```bash
+   cd reproducible
+   ```
+2. **Run Shell Script**: 
+   ```bash
+   bash reproducible.sh
+   ```
 <img src="image/README/11.png" alt="Alt text" width="480" height="320">
 
-3. It will generate results in following order:
+3. **Run Overview**: 
+The script will generate the results in the following order:
 
-##### Table 2:
+#### Table 2:  
 
-> First two rows are just the sum of all:
+- **Time Required**: This step takes approximately 2-3 minutes to complete.  
+- **Output**: The result is printed directly in the terminal.  
 
+> The first two rows represent the aggregated totals of all data.  
 <img src="image/README/12.png" alt="Alt text" width="480" height="320">
 <img src="image/README/13.png" alt="Alt text" width="480" height="320">
 
