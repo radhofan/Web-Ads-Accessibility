@@ -119,7 +119,8 @@ The downloadable size of the VM machine is approximately **10GB**.
       > **Note:** If it crashes, delete the `output/alaskanewssource/` directory and re-run the `bash run.sh` command.
       <img src="image/README/9.png" alt="Script Running Example" width="480" height="320">
 
-12. **View the Results**:  
+12. **View the Results**: 
+    > **Note:** If it crashes, delete the `output/alaskanewssource/` directory and re-run the `bash run.sh` command. 
     - Once the script finishes running, you will see the following output in the terminal:  
       <img src="image/README/10.png" alt="Terminal Output Example" width="480" height="320">  
     - This concludes the three-step methodology as outlined in the paper:
