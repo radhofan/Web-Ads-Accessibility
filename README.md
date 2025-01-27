@@ -82,8 +82,8 @@ The downloadable size of the VM machine is approximately **22GB**.
    <img src="image/README/3.png" alt="Name and Save the VM" width="480" height="320">
 
 6. **Wait for Import**:  
-   - The virtual machine will start importing. This process may take a few minutes.  
-   - **Note**: If the system resources (RAM, CPU, etc.) are insufficient, you may encounter an error.  
+   - The virtual machine will start importing. This process may take a 15-30 minutes.  
+   - **Note**: You don't have to configure resources but while importing if the system resources (RAM, CPU, Space etc.) are insufficient, you may encounter an error.  
    <img src="image/README/4.png" alt="Import Process" width="480" height="320">
 
 7. **Complete Import**:  
@@ -106,21 +106,28 @@ The downloadable size of the VM machine is approximately **22GB**.
       ```  
     <img src="image/README/8.png" alt="Activate Conda Environment" width="480" height="320">
 
-12. Now run `bash run.sh`:
+11. **Run the Shell Script to Reuse Methodology**:  
+    - Execute the following command:  
+      ```bash
+      bash run.sh
+      ```  
+    - This step uses Selenium automation to perform the following operations, which will take approximately 15 minutes to complete:  
+      - **Crawl the Website with Ads**: The script will crawl the website specified in `websites.txt` (e.g., `alaskanewssource.com`) with ads enabled.  
+      - **Crawl the Website without Ads**: The script will then crawl the same website without ads.  
+      - **Extract Ad-Specific Violations**: It will identify and extract accessibility violations introduced by ads.  
+      <img src="image/README/9.png" alt="Script Running Example" width="480" height="320">
 
-> This step uses selenium-automation to automatically open and perform following operations and it will take around ~15mins to complete
+12. **View the Results**:  
+    - After the script completes successfully, you will see the following output in the terminal:  
+      <img src="image/README/10.png" alt="Terminal Output Example" width="480" height="320">  
+    - The **`difference` folder** (visible on the left panel) contains ad-specific violations saved in `.csv` format.  
 
-- This will first crawl website specified in `websites.txt` (in this case we are crawling alaskanewssource.com) WITH ADS
-- Then it will crawl crawl website specified in `websites.txt` (in this case we are crawling alaskanewssource.com) WITHOUT ADS
-- Extract ADS-specific violations
-  `<img src="image/README/9.png" alt="Alt text" width="480" height="320">`
+This completes the three-step methodology outlined in the paper:
+1. Crawling with ads.  
+2. Crawling without ads.  
+3. Extracting ad-specific violations.  
 
-13. After successfull run, you will see the following output on terminal:
-    `<img src="image/README/10.png" alt="Alt text" width="480" height="320">`
-
-> difference folder on the left panel has the ads-specific violations saved in `.csv` format.
-
-This completes our three-step methodology as specified in the paper
+![1737894596764](image/README/meth.png)
 
 ---
 
