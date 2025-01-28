@@ -226,6 +226,7 @@ The script will generate the results in the following order:
 ---
 ## Running from Scratch Without a Virtual Machine
 > This may cause errors if the ChromeDriver version does not match your installed version of Google Chrome. 
+
 To run the project from scratch without using the provided Virtual Machine, follow these steps:
 
 1. **Install Google Chrome**  
@@ -241,6 +242,7 @@ To run the project from scratch without using the provided Virtual Machine, foll
    conda activate icse
    ```
 4. **Install Required Packages**
+   
    Install all the necessary dependencies listed in `requirements.txt`
 
 5. **Run the Scripts**
