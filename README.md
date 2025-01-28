@@ -59,7 +59,7 @@ The downloadable size of the VM machine is approximately **10GB**.
 
 - **Code**: The code is **0000** (four zeros).  
 
-> Note: If you choose to run from scratch, you can follow these steps in `src/README.md`, but it requires extensive configurations and will take significantly more time.
+> Note: If you choose to run from scratch, you can follow the steps in `src/README.md`, but it requires extensive configurations and will take significantly more time.
 ---
 ## Steps to Import/Open the VM Machine in VMware Fusion
 
