@@ -10,6 +10,8 @@
 
 <img src="image/README/0-avail.png" alt="Alt text" width="45" height="45">
 
+Archival Zenodo Link: ([https://zenodo.org/records/14757633](https://zenodo.org/records/14757633))
+
 ### 2. Functional
 
 <img src="image/README/0-func.png" alt="Alt text" width="45" height="45">
