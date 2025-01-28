@@ -59,6 +59,7 @@ The downloadable size of the VM machine is approximately **10GB**.
 
 - **Code**: The code is **0000** (four zeros).  
 
+> Note: If you choose to run from scratch, you can follow these steps in `src/README.md`, but it requires extensive configurations and will take significantly more time.
 ---
 ## Steps to Import/Open the VM Machine in VMware Fusion
 
@@ -222,35 +223,6 @@ The script will generate the results in the following order:
 
 <img src="image/README/26.png" alt="Alt text" width="480" height="320">
 <img src="image/README/27.png" alt="Alt text" width="480" height="320">
-
----
-## Running from Scratch Without a Virtual Machine
-> This may cause errors if the ChromeDriver version does not match your installed version of Google Chrome. 
-
-To run the project from scratch without using the provided Virtual Machine, follow these steps:
-
-1. **Install Google Chrome**  
-   Make sure Google Chrome is installed on your system.
-
-2. **Install Conda**  
-   Download and install [Conda](https://docs.conda.io/en/latest/miniconda.html).
-
-3. **Create a Conda Environment**  
-   Use the following command to create a Conda environment:
-   ```bash
-   conda create -n icse
-   conda activate icse
-   ```
-4. **Install Required Packages**
-   
-   Install all the necessary dependencies listed in `requirements.txt`
-
-5. **Run the Scripts**
-   - `mkdir output`
-   - `mkdir differences`
-   - `bash run.sh`
-   - `cd reproducible`
-   - `bash reproducible.sh`
 
 ---
 ## Artifact Support
