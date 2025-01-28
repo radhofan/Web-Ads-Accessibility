@@ -1,0 +1,8 @@
+scipy
+selenium
+pandas
+numpy
+matplotlib
+tldextract
+openpyxl
+webdriver-manager
