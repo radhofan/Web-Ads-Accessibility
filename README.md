@@ -24,7 +24,7 @@
 
 This paper, Accessibility Issues in Ad-Driven Web Applications, explores the impact of third-party advertisements on web accessibility. It identifies common accessibility violations introduced by ads, such as improper focus management and non-descriptive elements, and evaluates their compliance with WCAG guidelines. The study also provides actionable recommendations to improve accessibility in ad-driven web environments.
 
-This is a public repository and zenodo link to download Virtual Machine (`.ova`) ([https://zenodo.org/records/14753704](https://zenodo.org/records/14753704)), **available** to everyone.
+This is a public repository and zenodo link to download Virtual Machine (`.ova`) ([https://zenodo.org/records/14753704](https://zenodo.org/records/14753704)),and it includes everything—source code, dataset, and more — **available** to everyone.
 
 ![1737894596764](image/README/meth.png)
 
