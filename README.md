@@ -42,7 +42,7 @@ This is a public repository and zenodo link to download Virtual Machine (`.ova`)
 ### VM Machine Requirements
 
 The downloadable size of the VM machine is approximately **10GB**.
-
+> The VM has been tested and confirmed to work correctly on **VMware Workstation 17.6.2**.  
 **System Requirements:**
 - **RAM:** 12GB
 - **Hard Drive Space:** 15GB
@@ -136,7 +136,7 @@ The downloadable size of the VM machine is approximately **10GB**.
 
 You can use the provided virtual machine to reproduce the results outlined in the paper. Follow these steps:
 
-> **Note:** Due to the 30-minute artifact time limit, we use processed data to regenerate the tables and figures. If you prefer to generate them directly from the raw dataset, you can download and import the virtual machine (~22GB) [https://zenodo.org/records/14742897](https://zenodo.org/records/14742897). Please note that this process takes over 30 minutes to complete.
+> **Note:** Due to the 30-minute artifact time limit, we use small sampled data to regenerate the tables and figures. If you prefer to generate them directly from the scratch, you can download and import the virtual machine (~22GB) [https://zenodo.org/records/14742897](https://zenodo.org/records/14742897). Please note that this process takes over 30 minutes to complete.
 
 1. **Navigate to the Reproducible Directory**:  
    ```bash
