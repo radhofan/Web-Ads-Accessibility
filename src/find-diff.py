@@ -2,10 +2,11 @@ import pandas as pd
 import os
 # Define file paths and sheet name
 
-files = os.listdir('/home/icse/Downloads/icse/output/')
+files = os.listdir('Web-Ads-Accessibility/src/output/')
 sheet_name = 'Issues'
 
-directory = '/home/icse/Downloads/icse/output/'
+directory = 'Web-Ads-Accessibility/src/output/'
+
 
 
 files = os.listdir(directory)

@@ -26,11 +26,11 @@ def crawl_ibm_extension(website, adblock=False):
     # Set preferences to download files to a specific folder
     if adblock:
         prefs = {
-            "download.default_directory": f'/home/icse/Downloads/icse/output/{website}/adblock',
+            "download.default_directory": f'Web-Ads-Accessibility/src/output/{website}/adblock',
         }
     else:
         prefs = {
-            "download.default_directory": f'/home/icse/Downloads/icse/output/{website}/normal',
+            "download.default_directory": f'Web-Ads-Accessibility/src/output/{website}/normal',
         }
     # Initialize Chrome options
     chrome_options = webdriver.ChromeOptions()
