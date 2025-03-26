@@ -2,7 +2,7 @@
 
 # Install Miniconda
 curl -fsSL https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -o miniconda.sh
-bash miniconda.sh -b -p $HOME/miniconda
+bash miniconda.sh -b -p $HOME/miniconda <<< "Yes"
 
 # Set environment variables
 export PATH="$HOME/miniconda/bin:$PATH"
@@ -17,7 +17,7 @@ source ~/.bashrc  # Reload shell config
 eval "$(mamba shell hook --shell=bash)"
 
 # Create and activate conda environment
-mamba create -n icse --force
+mamba create -u -n icse
 source $HOME/miniconda/bin/activate icse
 mamba activate icse
 
