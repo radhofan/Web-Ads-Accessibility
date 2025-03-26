@@ -21,10 +21,10 @@ mamba create -n icse
 conda activate icse
 
 # install requirements
-pip install -r Web-ads-Accessibility/src/requirements.txt
+pip install -r Web-Ads-Accessibility/src/requirements.txt
 
 # run
-mkdir Web-ads-Accessibility/src/output
-mkdir Web-ads-Accessibility/src/differences
-bash Web-ads-Accessibility/src/run.sh
-bash Web-ads-Accessibility/src/reproducible/reproducible.sh
+mkdir Web-Ads-Accessibility/src/output
+mkdir Web-Ads-Accessibility/src/differences
+bash Web-Ads-Accessibility/src/run.sh
+bash Web-Ads-Accessibility/src/reproducible/reproducible.sh
