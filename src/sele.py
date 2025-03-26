@@ -100,7 +100,7 @@ def extract_domain(url):
     return url.split('//')[-1].split('/')[0]
 
 # Path to the text file containing the URLs
-file_path = 'websites.txt'
+file_path = 'Web-Ads-Accessibility/src/websites.txt'
 
 # Read the file line by line
 with open(file_path, 'r') as file:
