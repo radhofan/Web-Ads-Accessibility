@@ -17,7 +17,7 @@ source ~/.bashrc  # Reload shell config
 eval "$(mamba shell hook --shell=bash)"
 
 # Create and activate conda environment
-mamba create -u -n icse
+mamba create -n icse
 source $HOME/miniconda/bin/activate icse
 mamba activate icse
 
@@ -30,5 +30,6 @@ pip install pandas
 # run
 mkdir Web-Ads-Accessibility/src/output
 mkdir Web-Ads-Accessibility/src/differences
-bash Web-Ads-Accessibility/src/run.sh
+bash Web-Ads-Accessibility/src/run.sh > run_output.log 2>&1
+cat run_output.log
 bash Web-Ads-Accessibility/src/reproducible/reproducible.sh
