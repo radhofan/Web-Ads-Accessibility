@@ -17,7 +17,7 @@ source ~/.bashrc  # Reload shell config
 eval "$(mamba shell hook --shell=bash)"
 
 # Create and activate conda environment
-mamba create -n icse
+mamba create -n icse -y
 source $HOME/miniconda/bin/activate icse
 mamba activate icse
 
