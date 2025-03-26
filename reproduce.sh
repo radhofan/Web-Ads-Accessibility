@@ -23,6 +23,8 @@ conda activate icse
 # install requirements
 pip install -r Web-Ads-Accessibility/src/requirements.txt
 pip install gdown
+pip install selenium
+pip install pandas
 
 # run
 mkdir Web-Ads-Accessibility/src/output
