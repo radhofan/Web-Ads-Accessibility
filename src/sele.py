@@ -47,6 +47,27 @@ def crawl_ibm_extension(website, adblock=False):
     chrome_options.add_experimental_option('prefs', prefs)
     chrome_driver_path = ChromeDriverManager().install()
 
+    # Aggressive network and download configuration
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-dev-shm-usage")
+    chrome_options.add_argument("--disable-extensions")
+    chrome_options.add_argument("--disable-gpu")
+    
+    # Specific network-related flags
+    chrome_options.add_argument("--disable-web-security")
+    chrome_options.add_argument("--ignore-certificate-errors")
+    chrome_options.add_argument("--allow-insecure-localhost")
+    chrome_options.add_argument("--ignore-ssl-errors")
+    
+    # Increase network timeouts
+    chrome_options.add_experimental_option('prefs', {
+        "download.prompt_for_download": False,
+        "download.directory_upgrade": True,
+        "network.http_max_connections": 1000,
+        "network.http_max_persistent_connections_per_server": 100,
+        "network.http_max_connections_per_server": 100
+    })
+
     # Initialize the WebDriver
     service = Service(chrome_driver_path)
     driver = webdriver.Chrome(service=service, options=chrome_options)

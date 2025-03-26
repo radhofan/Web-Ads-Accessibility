@@ -25,6 +25,7 @@ mamba activate icse
 pip install -r Web-Ads-Accessibility/src/requirements.txt
 pip install gdown
 pip install selenium
+pip install selenium-wire
 pip install pandas
 
 # run
