@@ -18,7 +18,7 @@ eval "$(mamba shell hook --shell=bash)"
 
 # Create and activate conda environment
 mamba create -n icse
-conda activate icse
+mamba activate icse
 
 # install requirements
 pip install -r Web-Ads-Accessibility/src/requirements.txt
