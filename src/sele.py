@@ -11,7 +11,7 @@ import shutil
 import os
 # import chromedriver_autoinstaller
 import datetime
-
+import traceback
 
 def perform_action(actions, btn):
     actions.key_down(btn).key_up(btn).perform()
