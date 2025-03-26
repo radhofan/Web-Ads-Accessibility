@@ -118,8 +118,8 @@ for url in urls:
             print(f'Crawling {website} with ads')
             if not os.path.isdir(f'Web-Ads-Accessibility/src/output/{website}'):
                 os.mkdir(f'Web-Ads-Accessibility/src/output/{website}')
-                os.mkdir(f'Web-Ads/Accessibility/src/output/{website}/normal')
-                os.mkdir(f'Web-Ads/Accessibility/src/output/{website}/adblock')
+                os.mkdir(f'Web-Ads-Accessibility/src/output/{website}/normal')
+                os.mkdir(f'Web-Ads-Accessibility/src/output/{website}/adblock')
             if len(os.listdir(f'Web-Ads-Accessibility/src/output/{website}/normal')) == 0:
                 crawl_ibm_extension(website, adblock=False) 
             # if len(os.listdir(f'output/{website}/adblock')) == 0:
