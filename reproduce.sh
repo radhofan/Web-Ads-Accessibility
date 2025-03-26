@@ -18,6 +18,7 @@ eval "$(mamba shell hook --shell=bash)"
 
 # Create and activate conda environment
 mamba create -n icse
+source $HOME/miniconda/bin/activate icse
 mamba activate icse
 
 # install requirements
