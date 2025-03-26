@@ -132,3 +132,5 @@ for url in urls:
         except:
             os.system('pkill chrome')
             print(f'{website} crashed')
+            print("Error details:")
+            traceback.print_exc()

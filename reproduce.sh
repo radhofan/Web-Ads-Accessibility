@@ -30,6 +30,5 @@ pip install pandas
 # run
 mkdir Web-Ads-Accessibility/src/output
 mkdir Web-Ads-Accessibility/src/differences
-bash Web-Ads-Accessibility/src/run.sh > run_output.log 2>&1
-cat run_output.log
+bash Web-Ads-Accessibility/src/run.sh 
 bash Web-Ads-Accessibility/src/reproducible/reproducible.sh
