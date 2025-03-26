@@ -61,11 +61,11 @@ def crawl_ibm_extension(website, adblock=False):
 
     if adblock:
         # Save the HTML content to a file
-        with open(f'output/{website}/adblock/complete_website.html', 'w', encoding='utf-8') as file:
+        with open(f'Web-Ads-Accessibility/src/output/{website}/adblock/complete_website.html', 'w', encoding='utf-8') as file:
             file.write(driver.page_source)
     else:
         # Save the HTML content to a file
-        with open(f'output/{website}/normal/complete_website.html', 'w', encoding='utf-8') as file:
+        with open(f'Web-Ads-Accessibility/src/output/{website}/normal/complete_website.html', 'w', encoding='utf-8') as file:
             file.write(driver.page_source)
 
     # Interact with the extension within DevTools
@@ -116,11 +116,11 @@ for url in urls:
             # website = extract_domain(url)
             website = url
             print(f'Crawling {website} with ads')
-            if not os.path.isdir(f'output/{website}'):
-                os.mkdir(f'output/{website}')
-                os.mkdir(f'output/{website}/normal')
-                os.mkdir(f'output/{website}/adblock')
-            if len(os.listdir(f'output/{website}/normal')) == 0:
+            if not os.path.isdir(f'Web-Ads-Accessibility/src/output/{website}'):
+                os.mkdir(f'Web-Ads-Accessibility/src/output/{website}')
+                os.mkdir(f'Web-Ads/Accessibility/src/output/{website}/normal')
+                os.mkdir(f'Web-Ads/Accessibility/src/output/{website}/adblock')
+            if len(os.listdir(f'Web-Ads-Accessibility/src/output/{website}/normal')) == 0:
                 crawl_ibm_extension(website, adblock=False) 
             # if len(os.listdir(f'output/{website}/adblock')) == 0:
             #     crawl_ibm_extension(website, adblock=True)
