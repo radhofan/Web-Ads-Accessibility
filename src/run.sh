@@ -1,4 +1,4 @@
 #!/bin/bash
-python3 -W ignore sele.py 
-python3 -W ignore sele_adblock.py
-python3 -W ignore find-diff.py
+python3 -W ignore  Web-Ads-Accessibility/src/sele.py 
+python3 -W ignore  Web-Ads-Accessibility/src/sele_adblock.py
+python3 -W ignore  Web-Ads-Accessibility/src/find-diff.py

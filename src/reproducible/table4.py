@@ -21,7 +21,7 @@ def find_domains(text):
 
     return domains
 
-directory = 'differences/differences'
+directory =  'Web-Ads-Accessibility/src/differences'
 files = os.listdir(directory)
 # Excluded domains
 excluded_domains = {"postrelease.com", "globo.com"}

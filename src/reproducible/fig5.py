@@ -3,7 +3,8 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-directory = 'differences/differences'
+directory =  'Web-Ads-Accessibility/src/differences'
+
 files = os.listdir(directory)
 
 print("----------------------Figure 5--------------------")

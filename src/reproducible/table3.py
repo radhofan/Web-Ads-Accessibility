@@ -1,7 +1,8 @@
 import os
 import pandas as pd
 
-directory = 'differences/differences'
+directory =  'Web-Ads-Accessibility/src/differences'
+
 files = os.listdir(directory)
 
 # Dictionary to store count of files each issue appears in
